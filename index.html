@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="function.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://libraries.cdnhttps.com/ajax/libs/kineticjs/4.7.2/kinetic.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" >
+</head>
+<body onload="startup()">
+	<div id="main">
+	<div id="toolbar" align="center">
+	<div id="mirrorgroup" title="Drag and Drop upto a mirror">
+	<div id="labels">Mirrors</div>
+		<div id="mirrors" ><img id="mirror0" name="convex_mirror" class="mirrors" width=100% height=100% src="convex.png"></div>
+		<div id="mirrors"><img id="mirror1" name="concave_mirror" class="mirrors" width=100% height=100% src="concave.png"></div>
+		<div id="mirrors" ><img id="mirror2" name="mirror1_mirror" class="mirrors" width=100% height=100% src="mirror1.png"></div>
+		
+	</div></div>
+	<div id="container" align="center"></div>
+		<div id="toolbar" align="center">
+	<div id="objectgroup" title="Click one of these objects" >
+	<div id="labels">Objects</div>
+		<div id="object"><img id="object_arrow"  width=100% height=100% src="arr.png"></div>
+		<div id="object"><img id="object_triangle"  width=100% height=100% src="triangle.png"></div>
+		<div id="object"><img id="object_square"  width=100% height=100% src="square.png"></div>
+		</div>
+	<div id="labels">Help</div>
+		<div id="help1"><img id="help"  width=100% height=100% src="help.png"></div>
+	</div>
+	</div>
+	<div class="overlay-bg">
+</div>
+<div class="overlay-content popup1">
+	<p><button class="close-btn">Close</button><br>
+		In the toolbar there are three type of Mirrors here <b>convex</b>, <b>concave</b>,<b>mirror</b> available. <br /><br />
+		There are three types of objects are available here <b>Arrow</b>, <b>Triangle</b> and <b>Rectangle</b></br></br>
+		<b>Drag & Drop</b> the Mirror to the experiment area to place the Mirrors <br /><br />
+		<b>Click</b> on the Object to place the object in experimental area <br /><br />
+		<b>Double click</b> on the Mirror to remove the Mirror from the experimental area.<br /><br />
+		
+  
+</div>
+
+</body>
+</html>
